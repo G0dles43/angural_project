@@ -1,1 +1,40 @@
 /* You can add global styles to this file, and also import other style files */
+
+body{
+    color: whitesmoke;
+    font-size: 23px;
+    font-family: "Rethink Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    background-image:url('https://wallpapercave.com/wp/wp2757874.gif');
+    margin: 0;
+
+}
+
+
+
+
+header{
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    height: 100px;
+    background-color: rgb(4, 3, 19);
+    color: whitesmoke;
+  
+}
+
+#logo{
+    margin-left: 20px;
+    cursor: pointer;
+    height: 100px;
+    transition: all 0.4s ease-in-out;
+}
+
+#logo:hover{
+    transform: scale(1.2);
+}
+
+
+
