@@ -1,0 +1,4 @@
+<h3>Edytuj studenta: {{ student.imie }} {{ student.nazwisko }}</h3>
+<label>Wiek: <input type="number" [(ngModel)]="student.wiek" disabled></label><br>
+<label>Nowa ocena: <input type="number" [(ngModel)]="nowaOcena"></label>
+<button (click)="dodajOcene()">Dodaj ocenę</button>
