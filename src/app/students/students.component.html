@@ -12,7 +12,7 @@
   </li>
 </ul>
 
-<button (click)="pokazFormularz = !pokazFormularz">Dodaj studenta</button>
+<button id="add" (click)="pokazFormularz = !pokazFormularz">Dodaj studenta</button>
 <add-student *ngIf="pokazFormularz" (studentDodany)="dodajStudenta($event)"></add-student>
 <edit-student *ngIf="studentDoEdycji" [student]="studentDoEdycji!"></edit-student>
 

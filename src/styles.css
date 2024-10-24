@@ -29,11 +29,14 @@ header{
     margin-left: 20px;
     cursor: pointer;
     height: 100px;
-    transition: all 0.4s ease-in-out;
+    animation: logo 5s linear infinite;
 }
 
-#logo:hover{
-    transform: scale(1.2);
+
+@keyframes logo{
+    0% {scale: 1;}
+    50% {scale: 1.3;}
+    100% {scale: 1;}
 }
 
 

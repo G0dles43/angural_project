@@ -15,7 +15,11 @@ export class Student {
   ) {}
 
   dodajOcene(ocena: number) {
+
+    if(!(ocena<2 || ocena >5))
     this.oceny.push(ocena);
+    else
+    alert("Podano nieistniejąco ocenę");
   }
 }
 
